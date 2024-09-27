@@ -1,0 +1,40 @@
+.pin{
+    margin: 15px 10px;
+    padding: 0;
+    border-radius: 16px;
+    background-color: aqua;
+    overflow: hidden;
+
+}
+
+
+.pin:hover {
+    transition: transform .3s ease, filter .3s ease;
+    filter: brightness(.8);
+    cursor: pointer;
+    
+}
+
+.pin img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    left: auto;
+    
+
+  }
+
+.pin-small {
+    grid-row-end: span 26;
+}
+
+
+.pin-medium {
+    grid-row-end: span 33;
+}
+
+
+.pin-large {
+    grid-row-end: span 45;
+}
